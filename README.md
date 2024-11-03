@@ -15,11 +15,28 @@ Orion is a personal assistant designed to help you perform various tasks like se
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.0 or higher
 
+To download the source code for Orion, run the following command in your terminal or command prompt:
+
+```bash 
+git clone https://github.com/11FaZe11/voice-assistant-.git
+```
 ### Required Libraries
 
 To install the required libraries, run:
 
 ```bash
-pip install SpeechRecognition pyttsx3 pywhatkit requests beautifulsoup4 numpy googlesearch-python
+pip install -r requirements.txt
+```
+To run the program, execute the following command
+On windows:
+
+```bash
+python main.py
+```
+On Linux:
+
+```bash
+python3 main.py
+```
